@@ -106,7 +106,8 @@ try:
     keyboard.wait()
 except KeyboardInterrupt:
     print("\nProgram stopped by the user.")
-    sys.exit(0)import keyboard
+    sys.exit(0)
+    import keyboard
 from pynput.keyboard import Key, Controller
 import time
 import sys
@@ -211,4 +212,5 @@ try:
     keyboard.wait()
 except KeyboardInterrupt:
     print("\nProgram stopped by the user.")
+
     sys.exit(0)
